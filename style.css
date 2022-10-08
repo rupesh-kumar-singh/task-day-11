@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ########### html styling ##############  */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p ,li{
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+    letter-spacing: 0.15em;
+}
+
+h1, h2, h3{
+    margin-bottom: .5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+/* ####################utility classes ################ */
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.lg-heading{
+    font-size: 2rem;
+}
+
+.color-black{
+ background: rgba(0, 0, 0, 0.922);
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 600;
+    margin: .5em 0;
+
+}
+
+.btn-primary{
+    background-color: lightgray;
+
+}
+
+
+
+/* --------------about navbar css and header styling----------------- */
+
+
+.header{
+    position: relative;
+    height: 98vh;
+ 
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-items{
+   
+    padding-left: 120px;
+    
+}
+
+
+.nav-item{
+   
+    list-style-type: none;
+    display: inline-block;
+    margin:20px 20px ;
+}
+
+.navbar a:link,
+.navbar a:visited{
+    color:whitesmoke;
+}
+
+.navbar a{
+    padding-bottom: .4rem;
+}
+
+.navbar a:hover{
+    color: bisque;
+    border-bottom: 0.3px solid #f4f4f4;
+}
+
+.header-content h1{
+   font-weight: 700;
+   font-size: 5rem;
+  
+}
+.header-content p{
+   font-weight: 500;
+   font-size: 3rem;
+  
+}
+
+
+.header-content{
+    margin-top: 3em;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* ############ showcase section styling ############# */
+
+
+.showcase{
+    background: rgba(221, 221, 221, 0.3);
+    padding: 100px 0px;
+
+}
+
+.row{
+    height: 700px;
+   
+}
+
+.row-1{
+    float: left;
+    width: 50%;
+   
+ 
+}
+.row-2{
+    float: right;
+    width: 50%;
+    text-align: center;
+    
+}
+.showcase::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.row-2 img{
+    display: inline-block;
+    height: 60%;
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+    box-shadow:  0px 0px 10px 0px rgb(71, 57, 57);
+}
+
+.text-box{
+    padding: 20px;
+}
+
+
+.text{
+   
+    margin-top:2.5rem ;
+}
+
+.awesome{
+   
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.text-box .text p{
+    font-weight: 500;
+}
+.row::after{
+    display: inline-block;
+    content: "";
+    clear: both;
+
+}
+
+
+/* #########3 about link ########### */
+
+
+.feature{
+   
+    margin-bottom: 5rem;
+   
+}
+
+
+.item{
+   
+    text-align: center;
+}
+
+.font{
+    margin: 0 20px;
+   width: 30%;
+    float: left;
+    margin: 30px 10px;
+    
+}
+.item::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.more-about{
+   
+    padding: 3px;
+   
+    text-align: center;
+}
+
+
+.item .first-1{
+    background-color:gray ;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.item .second-2{
+    background-color:red ;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.item .third-3{
+    background-color:orange ;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* ########### about kazi quote ############ */
+
+.quote{
+   
+    background-color: black;
+    margin-bottom: 5rem;
+
+}
+
+.quote .love{
+    padding: 4rem;
+    
+    margin: 5rem;
+    text-align: center;
+}
+.quote .love h1{
+    font-size: 2rem;
+    color: #f4f4f4;
+}
+
+
+/* ######### about star award ################ */
+
+.award{
+    margin-bottom: 50px;
+}
+.star-line{
+
+   
+    text-align: center;
+    
+}
+
+.star{
+    display: inline-block;
+   
+    margin: 40px 5px;
+    padding: 20px;
+   
+}
+
+ .star-1{
+   font-size: 3rem;
+   
+   
+}
+.star-line .star-2 h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ############# about award ############ */
+
+.about-award{
+    
+    text-align: center;
+    margin-bottom:  4rem ;
+
+}
+
+.all-award{
+    border: 1px solid gray;
+    text-align: center;
+    margin: 40px 25px;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.352);
+    box-shadow: 5px 5px 5px 0px rgba(128, 128, 128, 0.409);
+}
+
+.award-1{
+    float: left;
+    width: 20%;
+    padding: 13px 0;
+    height: 100%;
+}
+.award-2{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.award-3{
+    float: left;
+    width: 20%;
+    padding: 12px 0;
+    height: 100%;
+}
+.award-4{
+    float: left;
+    width: 20%;
+    padding: 10px 0;
+    height: 100%;
+}
+
+.about-award::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.all-award h3{
+    padding: 20px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ######### about poem and poetry ####### */
+
+
+.poetry{
+   
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.poem{
+    display: inline-block;
+    
+    margin: 40px 0;
+}
+
+.poem h2{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ########## description of peotry ######## */
+
+.description{
+    
+    margin-bottom: 3rem;
+}
+.addition li::before{
+    content: "\2713";
+    color: red;
+    font-weight: 700;
+    padding-right:.5rem ;
+}
+
+.addition{
+   
+    
+    margin: 60px 10px 50px 70px;
+}
+
+.first-dl{
+    width: 40%;
+    float: left;
+}
+.second-dl{
+    width: 40%;
+    float: left;
+}
+
+.description::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/* ############# about footer ############ */
+
+
+.last-footer{
+    background: black;
+}
+
+
+.all-end{
+   
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 20px ;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.end::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.all-end h4{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.all-end p{
+    color: gray;
+}
+
+/* ############# about media quetries ######### */
+
+
+@media (max-width:560px){
+    html{
+        font-size: 50%;
+    }
+    
+    /* ######## about navbar navbar ######3 */
+    .nav-items .nav-item {
+        display: block;
+      
+    }
+
+    /* ##### about bio ######## */
+    .showcase{
+        padding: 50px 0;
+      }
+.row{
+    height: 500px;
+}
+    .row-1,
+    .row-2{
+
+        float: none;
+        display: block;
+        width: 100%;
+        /* height: 500px; */
+    
+        
+    }
+    .row-2 img{
+        display: inline-block;
+        height: 50%;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        margin-top:180px;
+        box-shadow:  0px 0px 10px 0px rgb(71, 57, 57);
+    }
+    .row-1{
+        margin-bottom: 40px;
+    }
+  
+    /* ###### about more for kazi ######## */
+     .font{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    /* ######### award ###### */
+    .star-line .line-1{
+        display: none;
+    }
+
+    /* ######## about award ###### */
+    .about-award .all-award{
+        float: none;
+        display: block;
+        width: 100%;
+         margin-left: 0;
+        
+    }
+
+    /* ###########  about poetry and poem ######## */
+    .poetry .lag{
+        display: none;
+    }
+
+    /* ######## about footer ############ */
+
+    .end .all-end{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .end-1{
+        padding-top: 20px;
+    }
+    .end-3{
+        padding-bottom: 20px;
+    }
+
+
+}
+
+
+@media (min-width:561px) and (max-width:880px){
+
+    html{
+        font-size: 50%;
+    }
+    
+    /* ######## about navbar navbar ######3 */
+    /* .nav-items .nav-item {
+        display: block;
+      
+    } */
+
+    /* ##### about bio ######## */
+          .showcase{
+            padding: 50px 0;
+          }
+    .row{
+        height: 400px;
+    }
+    .row-1,
+    .row-2{
+
+        float: none;
+        display: block;
+        width: 100%;   
+    }
+    .row-2 img{
+        display: inline-block;
+        height: 30%;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-top: 10px;
+        box-shadow:  0px 0px 10px 0px rgb(71, 57, 57);
+    }
+   
+  
+    /* ###### about more for kazi ######## */
+     .font{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    /* ######### award ###### */
+    .star-line .line-1{
+        display: none;
+    }
+
+    /* ######## about award ###### */
+    .about-award .all-award{
+        float: none;
+        display: block;
+        width: 100%;
+         margin-left: 0;
+        
+    }
+
+    /* ###########  about poetry and poem ######## */
+    .poetry .lag{
+        display: none;
+    }
+
+    /* ######## about footer ############ */
+
+    .end .all-end{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .end-1{
+        padding-top: 20px;
+    }
+    .end-3{
+        padding-bottom: 20px;
+    }
+
+
+
+} 
+
+
+@media (min-width:881px) and (max-width:1120px){
+
+    /* ######### award ###### */
+    .star-line .line-1{
+        display: none;
+    }
+
+
+      /* ######## about award ###### */
+      .about-award .all-award{
+        float: none;
+        display: block;
+        width: 100%;
+         margin-left: 0;
+        
+    }
+
+
+       
+}
+
+
