@@ -1,0 +1,211 @@
+/* navbar styling */
+
+#top_nav{
+background-color: #daac00 ;
+padding:  .5% 8%;
+}
+
+
+#searchbox{
+    background-color: #fcc302;
+    color: white ;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    border: 0;
+    left: 60px;
+    box-shadow:  -4px 3px 10px 1px grey;
+}
+
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: blue;
+    padding: 7px;
+    border: none;
+}
+
+.nav-link{
+   
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width:912px){
+
+
+    #search-form{
+        margin-bottom: 30px;
+       position: relative;
+       right: 60px;
+    }
+}
+
+/* banner */
+#banner{
+    background-color: #fcc302;
+    padding-top: 30px;
+  
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 90px;
+}
+
+#bannertext p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid ;
+    margin-top: 10px;
+}
+
+#banner-btn-2{
+    color: white;
+    border: 2px solid;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width:1150px){
+
+    #bannertext h1{
+        color: white;
+        font-size: 40px;
+        margin-top: 90px;
+    }
+    
+}
+
+@media only screen and (max-width:780px){
+
+    .imgdog{
+
+       width:90% !important;
+
+    }
+    #banner{
+        padding-left: 30px;
+    }
+    
+
+}
+
+
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+
+#service-btn-1{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+
+#service-img{
+    padding:5% ;
+}
+
+/* department */
+
+#counter-section{
+    background-image: url(./css/volodymyr-hryshchenko-e8YFkjN2CzY-unsplash.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-size: cover;
+    background-color: #fcc302;
+    z-index: -1;
+}
+
+.counter-icon{
+    color: white;
+    font-size: 50px;
+}
+
+
+/* blog */
+#blog{
+    padding: 70px 0px;
+}
+
+#blog-title{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+#blog-p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.article{
+    padding: 10px;
+    border: 2px solid rgb(185, 185, 180);
+}
+
+.date, .link{
+    color: #00bec9;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #343434;
+    padding: 60px 0px;
+}
+
+#footer a{
+text-decoration: none;
+color: aliceblue;
+}
+
+#form-title{
+    margin: 15px 0px;
+}
+
+#footer-search{
+    background-color: #fcc302;
+    border: 0;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+}
+
+#footer-submit{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    padding: 10px 40px;
+}
+
+.icon{
+    font-size: 25px;
+    padding-left: 9px;
+}
+
+@media only screen  and (max-width:780px){
+
+    .time{
+        display: block;
+        width: 100%!important;
+        padding-right: 80px;
+        margin-top: 60px;
+    }
+}
